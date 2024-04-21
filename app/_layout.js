@@ -31,10 +31,7 @@ export default function App() {
   }
 
   return (
-    <View style={styles.container}>
-      <Text>Open up MCOC to start asds on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Stack></Stack>
   );
 }
 
