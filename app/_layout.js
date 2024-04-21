@@ -31,7 +31,9 @@ export default function App() {
   }
 
   return (
-    <Stack></Stack>
+    <Stack>
+      <Stack.Screen name="index" options={{headerShown: false}} ></Stack.Screen>
+    </Stack>
   );
 }
 
